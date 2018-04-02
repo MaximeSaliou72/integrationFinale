@@ -1,0 +1,283 @@
+table{
+  width: 100%;
+  margin: 30px 0;
+}
+
+tr,td{
+  padding: 10px;
+}
+
+tr{
+  border-bottom: 1px solid #999;
+  color: #999;
+}
+
+tr:first-child{
+  border-bottom: 2px solid #333;
+  color: #333;
+}
+
+.Fontss{
+    font-family: 'partybusiness';
+    font-size: 2em;
+}
+
+h2{
+  font-size: 1.5em;
+  margin: 20px 0 40px 0;
+}
+
+a{
+  color: #333;
+}
+
+a:hover{
+  text-decoration: none;
+  color: #333;
+}
+
+p, .btn-fan{
+  font-family: 'partybusiness', cursive;
+  font-size: 1.5em;
+}
+
+#aboutRing p {
+  font-size: 2em;
+}
+
+.author{
+  text-align: right;
+  color: #999;
+}
+
+
+h2 span{
+  font-size: 0.6em;
+}
+
+h2 span.deco{
+  font-family: 'teng',cursive;
+  color:#FF5F01;
+}
+
+article{
+  padding: 30px;
+}
+
+.elf{
+  font-family: teng;
+  color: #ff4d00;
+}
+
+ /* Navbar*/
+
+.navbar {
+  background-color: #FF5F01;
+}
+
+#navbarcc{
+	justify-content: flex-end;
+}
+
+#navbarcc a{
+font-family: "ani" !important;
+font-style: normal;
+color: white;
+
+ }
+.pipe{
+	margin-left: 0.1em;
+	margin-right: 0.1em;
+ }
+
+#navbarcc .under:hover{
+	border-bottom: 2px solid white;
+}
+
+  /* Slide */
+
+.carousel {
+  width: auto;
+  height:auto;
+}
+.carousel-item {
+  width: auto;
+  height: auto;
+}
+
+.carousel-caption {
+  text-align: left;
+}
+
+.text-head {
+  margin-top: 150px;
+  font-size: 4em;
+  font-family: "partybusiness";
+}
+
+.text-head2 {
+  margin-bottom: 180px;
+  font-size: 3em;
+  font-family: "partybusiness";
+}
+
+
+#capturedSection{
+  background: url(img/bg_dark.png) 0 0 repeat;
+  overflow: hidden;
+  color: #fff;
+}
+
+/* pills */
+ #pillsSection{
+  background: url(img/bg_light.png) 0 0 repeat;
+  overflow: hidden;
+  clear: both;
+}
+.nav-pills {
+    margin: 0 auto;
+    margin-bottom: 40px;
+		max-width: 700px;
+}
+
+.nav-pills>li>a{
+  color: #666;
+  text-decoration: none;
+}
+
+.nav-pills>li>a:hover{
+  background-color: transparent;
+}
+
+.nav-pills>li.active{
+  border-bottom: 3px solid #ff4d00;
+}
+
+.nav-pills>li.active>a,.nav-pills>li.active>a:hover{
+  background-color: transparent;
+  color: #ff4d00;
+}
+
+/* Portraits*/
+
+.thumbnail{
+  position: relative;
+  background-color: #000;
+}
+
+.portraitDescription{
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.portraitDescription a, a:hover{
+  text-decoration: none;
+}
+
+.overlay{
+  position: absolute;
+  padding: 30px;
+  width: 100%;
+  height: 100%;
+
+}
+
+.overlay_content{
+  opacity: 1;
+  transition: opacity 0.5s;
+  width: 100%;
+}
+#shadow{
+  opacity; 0.5;
+}
+.containerPortrait{
+	opacity: 0.7;
+  transition: opacity 0.5s;
+}
+
+.containerPortrait:hover {
+  opacity: 1;
+  transition: opacity 0.5s;
+}
+.containerPortrait:hover .overlay_content{
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+.containerPortrait:hover #overlay{
+  background-color: rgba(255, 255, 255, 0);
+  transition: background-color 0.5s;
+}
+
+.containerPortrait:hover h1{
+  font-size: 4em;
+  margin-top: 70%;
+  transition: font-size 0.5s;
+  transition: margin-top 0.5s;
+}
+
+.containerPortrait h2{
+  font-size: 1em;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-width: 1px;
+  border-radius: 15px;
+  padding: 15px;
+  width: 200px;
+  margin-left: 30px;
+}
+
+.Iresponsive{
+  width: 100%;
+}
+
+h2.deadTitle{
+  background-color: transparent;
+  font-size: 1.9em;
+	color: #ff4d00;
+}
+
+.dead{
+  text-decoration: line-through;
+}
+
+.containerPortrait span{
+  color: #FFA500;
+  font-size: 1.1em;
+}
+
+.containerPortrait h1{
+  text-align: center;
+  color: #fff;
+  font-size: 4em;
+  margin-top: 80px;
+  transition: font-size 0.5s;
+  transition: margin-top 0.5s;
+  padding-left: 50px;
+  font-family: 'partybusiness';
+}
+
+@font-face {
+	font-family: "partybusiness";
+	src: url("fonts/partybusiness.ttf");
+ }
+@font-face {
+	font-family: ani;
+	src: url("fonts/anicb.ttf");
+	src: url("fonts/anicm.ttf");
+	src: url("fonts/anirb.ttf");
+	src: url("fonts/anirm.ttf");
+}
+@font-face {
+	font-family: "teng";
+	src: url("fonts/tngan.ttf");
+	src: url("fonts/tnganb.ttf");
+	src: url("fonts/tnganbi.ttf");
+	src: url("fonts/tngani.ttf");
+ }
+
+h1, h2, h3, h4, h5, h6, .nav, table{
+  font-family: 'ani', cursive;
+}
